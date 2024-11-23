@@ -1,8 +1,13 @@
 
-NanoXL is a minimalist, half ezoteric, script language. 
--------------------------------------------------------
+NanoXL is a minimalist, half-ezoteric, but not unusable script language 
+-----------------------------------------------------------------------
 
-Here is the Interpreter of language and here is the very short guide of nanoXL: 
+nanoXL is intended for 
+education (simple), 
+embeddability (relative short), and 
+entertainment (crazy, extreme, but just a little bit).
+
+Here is the Interpreter of the language and here is the very short guide of nanoXL: 
 
 - NanoXL uses 5 keywords (INP, IF, PRN, JMP, RET - as Input, If, Print, Jump and Return).
 - The 5 math operators of the language: add (+), sub (-), mul (*), div (/) and mod (%)
@@ -10,11 +15,11 @@ Here is the Interpreter of language and here is the very short guide of nanoXL:
   
 - Syntactic sugar: 
 
-B + equal with B = B + 1 
-B - equ with B = B - 1 
-B * equ with B = B * 2 
-B / equ with B = B / 2 
-and The B ! equ Not B (complement 1). 
+"B +" equal with "B = B + 1" 
+"B -" equ with "B = B - 1" 
+"B *" equ with "B = B * 2" 
+"B /" equ with "B = B / 2" 
+and The "B !" equ Not B (complement 1). 
 
 NanoXL uses integer arithmetic! 
 
@@ -24,11 +29,11 @@ NanoXL uses integer arithmetic!
 - There are no parentheses - {},(),[] - in the nanoXL language. 
 - A mathematical or logical expression can only have one operator:
 
-IF B = C JMP .EQUAL is correct, but
-IF B = C + 2 JMP .EQUAL is incorrect
+"IF B < C JMP .NOT_EQUAL" is correct, but
+"IF B < C + 2 JMP .NOT_EQUAL" is incorrect
 
-B = C * D is correct, but
-B = C * D + 4 is incorrect.
+"B = C * D" is correct, but
+"B = C * D + 4" is incorrect.
 
 This is intentional.
 
