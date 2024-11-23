@@ -7,6 +7,9 @@ education (simple),
 embeddability (relative short), and 
 entertainment (crazy, extreme, but just a little bit).
 
+Everything in nanoXL (the integer arithmetic, the 5 arithmetic and only 3 logical operators, the prohibition of parentheses, 
+the 5 abbreviated keywords) is all intentional, deliberate, and designed.
+
 Here is the Interpreter of the language and here is the very short guide of nanoXL: 
 
 - NanoXL uses 5 keywords (INP, IF, PRN, JMP, RET - as Input, If, Print, Jump and Return).
