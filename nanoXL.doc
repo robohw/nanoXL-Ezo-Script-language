@@ -1,0 +1,39 @@
+
+NanoXL is a minimalist, half ezoteric, script language. 
+-------------------------------------------------------
+
+Here is the Interpreter of language and here is the very short guide of nanoXL: 
+
+- NanoXL uses 5 keywords (INP, IF, PRN, JMP, RET - as Input, If, Print, Jump and Return).
+- The 5 math operators of the language: add (+), sub (-), mul (*), div (/) and mod (%)
+- The 3 logic operators of the nanoXL: smaller (<), equal (=), Not Euqal (!)
+  
+- Syntactic sugar: 
+
+B + equal with B = B + 1 
+B - equ with B = B - 1 
+B * equ with B = B * 2 
+B / equ with B = B / 2 
+and The B ! equ Not B (complement 1). 
+
+NanoXL uses integer arithmetic! 
+
+- The nano language doesn't know about loops. But you can create loops using IF and JMP and labels. Or complete subroutines using labels and the RET keyword. 
+- Label names start with the dot (.) character and are used to identify a unique line. One label, one line.   
+
+- There are no parentheses - {},(),[] - in the nanoXL language. 
+- A mathematical or logical expression can only have one operator:
+
+IF B = C JMP .EQUAL is correct, but
+IF B = C + 2 JMP .EQUAL is incorrect
+
+B = C * D is correct, but
+B = C * D + 4 is incorrect.
+
+This is intentional.
+
+Five, five, five! 
+
+Five keywords, five math operators, five minutes. If you want to learn the NanoXL scripting language in 5 minutes, study the simple example codes provided.
+
+Be careful! nanoXL is easy to learn, but hard to use.

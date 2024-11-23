@@ -1,0 +1,17 @@
+0	procedure PrintState;
+1	procedure Err(Msg: string);
+2	function  KeyWord(kw: string): Boolean;
+3	procedure AddToken(Tokn: string; Increment: Boolean);
+4	function  Tokenize(line: string): string;
+                  procedure AddChar;
+5	procedure SetLabelAddr(const Name: string; Addr: Byte);
+6	function  GetLabelAddr(const Name: string): Byte;
+7	function  Inputs(n: Byte): LongInt;
+8	function  GetValue(Index: Byte): Integer;
+9	procedure SetValue(n: Byte);
+10	function  Condition: Boolean;
+11	procedure HandlePRN(const n: Byte);
+12	procedure ExecuteLine;
+13	procedure Init;
+14	procedure LoadProgram;
+15      Main

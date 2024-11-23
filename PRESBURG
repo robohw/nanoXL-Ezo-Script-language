@@ -1,0 +1,15 @@
+; SUBTRACTION with ADD
+; One's compliment 
+; Pressburger-aritmetika
+; ---------------------
+
+TRC
+
+C = 40
+D = 16
+D !
+D +
+C = C + D
+PRN C T 
+
+

@@ -1,0 +1,14 @@
+; CHAR IS MA
+; ----------
+
+TRC
+
+U = 72         ; H ASCII
+V = 69         ; E ASCII
+W = 76         ; L ASCII
+X = 79         ; O ASCII
+
+               ; If You wanna PRINT more than one CHAR, You 
+PRN U V W W X  ; need to put a space between each CHAR
+ 
+

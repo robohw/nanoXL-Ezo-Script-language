@@ -1,0 +1,16 @@
+; biggest common divisor
+; ----------------------
+TRC
+
+B = 48              ; First  number
+C = 18              ; Second number
+
+.LOOP               ; loop
+ IF C = 0 JMP .END    
+ Q = C               
+ C = B % C           
+ B = Q              ; The new B = Q
+JMP .LOOP           ; Back to loop
+
+.END                ; End of Program 
+ PRN B              ; Print the divisor

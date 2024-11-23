@@ -1,0 +1,18 @@
+; SIMPLE LOOP
+; -----------
+TRC
+
+B=0
+
+.LOOP
+IF B = 10 JMP .END
+B = B + 1
+PRN B T
+JMP .LOOP
+
+
+.END
+X = 69
+Y = 78
+Z = 68
+PRN T X Y Z T

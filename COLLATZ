@@ -1,0 +1,24 @@
+; COLLATZ CONJECTURE
+; ------------------
+TRC
+B = 24       ; number to examine
+
+.COLLATZ
+PRN B T
+IF B = 1 JMP .END
+F = B % 2
+IF F = 0 B = B / 2
+IF 0 < F JMP .MULPLUS
+JMP .COLLATZ
+
+.MULPLUS
+B = B * 3
+B +
+RET
+
+.END
+X = 69
+Y = 78
+Z = 68
+PRN T X Y Z T
+ 

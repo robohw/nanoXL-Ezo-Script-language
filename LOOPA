@@ -1,0 +1,14 @@
+; SIMPLE LOOP
+; -----------
+
+TRC
+
+B=0
+C=1
+
+.LOOP
+B = B + C
+C = C + 1
+IF C < 15 JMP .LOOP
+
+PRN B
