@@ -7,6 +7,12 @@ education (simple),
 embeddability (relative short), and 
 entertainment (crazy, extreme, but just a little bit).
 
+nanoXL interpreter usage:
+
+c:\> nanoXL.exe your_script [ENTER]
+the output file same as input, but with "out" extension: your_script.out 
+
+
 Everything in nanoXL (the integer arithmetic, the 5 arithmetic and only 3 logical operators, the prohibition of parentheses, 
 the 5 abbreviated keywords) is all intentional, deliberate, and designed.
 
