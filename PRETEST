@@ -1,0 +1,25 @@
+; PRETEST LOOP SAMPLE
+; INP MUST BE INTEGER
+; -------------------
+
+TRC
+B = INP
+
+.LOOP
+ IF B < 10 JMP .CONTINUE
+ IF B > 90 JMP .END
+ PRN B S 
+ JMP .LOOP
+
+.CONTINUE
+
+; YOUR CODE
+; YOUR CODE
+; YOUR CODE
+
+.END
+
+
+
+
+

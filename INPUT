@@ -1,0 +1,15 @@
+; INPUT SAMPLE. INP 
+; MUST BE INTEGER
+; -------------------
+
+.LOOP
+B = INP
+PRN B
+IF B < 10 JMP .LOOP
+
+
+
+
+
+
+
