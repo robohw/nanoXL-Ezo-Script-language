@@ -1,0 +1,26 @@
+; ASCII DEMO
+; ----------
+TRC
+
+B = 1
+M = 127
+U = 65              ; ASCII
+JMP .LOOP           ; JUMP TO BEGIN
+
+.SUB
+ B = 0
+ PRN T              ; NEW LINE 
+RET                 ; RETURN TO JMP 
+
+.LOOP               ; MAIN LOOP  
+ PRN U S            ; ASCII + SPACE 
+ IF B = 8 JMP .SUB 
+ U +                ; INC U AS ASCII
+ B + 
+ IF U < M JMP .LOOP ; M IS THE LIMIT
+
+JMP .SUB            ; END + NEW LINE 
+
+
+
+
