@@ -1,6 +1,6 @@
 ; subtraction with ADD
 ; One's compliment 
-; Pressburger-aritmetic
+; Presburger-aritmetic
 ; ---------------------
 
 TRC
@@ -11,5 +11,6 @@ D !
 D +
 C = C + D
 PRN C T 
+
 
 
